@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Parking extends Model
+{
+    use HasFactory;
+    protected $table="parkings";
+    public $timestamps=false;
+    public $id = false;
+    protected $fillable=["apartmentType","ownerName","email","slotId","occupied","managerName"];
+}

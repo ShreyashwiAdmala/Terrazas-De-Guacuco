@@ -1,0 +1,1196 @@
+
+/*Sravanthi, Garuda (1002031710) , Sai Shreyashwi, Admala (1002041392)
+    Sowmya Bommasani (1002076763), Vindhya Meghana Lutukurthy (1002046814)
+      FNU Devapoojitaa (1002066254)*/
+
+/*PAGE RESPONSIVENESS FOR TABLET*/
+@media only screen and (max-width:800px) and (min-width:480px){
+    body{
+        margin: 0%;
+    }
+    .column-1{
+        width: 100%;
+    }
+    .column-2{
+        width:100%;
+    }
+    .nav-bar{
+        width:100%;
+        height:100%;
+        flex-direction:column;
+    }
+    .service-column {
+        width: 100%;
+        float: none;
+    }
+    .service-column2 {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    html {
+        width: 100%;
+    }
+    /* Start of Navbar styling*/
+    .nav-bar{
+        color:black;
+        display:flex;
+        justify-content: space-between;
+        font-family: "Didot";
+    }
+
+    .nav-bar-pages ul{
+        display:flex;
+        justify-content: space-between;
+        list-style-type:none;
+        padding: 0%;
+        flex-wrap: wrap;
+        text-decoration: none;
+    }
+
+    .nav-bar-pages li{
+        margin-left: 20px;
+        text-decoration: none;
+        flex-wrap: wrap;
+    }
+    .nav-bar-pages li a{
+        color:rgb(1, 1, 1);
+        text-decoration: none;
+    }
+    .nav-bar-pages li a:hover{
+        color:rgb(61, 41, 139);
+        text-decoration: underline;
+    }
+
+    .project-title-name a{
+        font-family: "Bradley Hand";
+        font-size: 28px;
+        color:black;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+    /* End of Navbar Styling*/
+    
+} 
+
+/*PAGE RESPONSIVENESS FOR MOBILES*/
+@media only screen and (max-width:480px){
+    body{
+        margin: 0%;
+    }
+    .column{
+        width: 100%;
+        height:100%;
+        /* float:none; */
+    }
+    .nav-bar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-bar-pages ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .service-column {
+        width: 100%;
+        float: none;
+    }
+    .service-column2 {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    html {
+        width: 100%;
+    }
+    textarea {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .contact-inline{
+        flex-direction: column;
+    }
+    .service-row{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .report-row{
+        flex-direction: column;
+    }
+    .report-column{
+        width:100%;
+    }
+    .about-row{
+        flex-direction: column;
+    }
+    .about-image-title{
+        width: 400%;
+        height: auto;
+    }
+}
+/*Start of Building Manager Report*/
+
+#managersCount {
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width:100%;
+    height:500px;
+}
+
+#amenitiesCount {
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width:100%;
+    height:500px;
+}
+
+.report-row{
+    display: flex;
+    text-align: center;
+}
+
+.report-column{
+    width: 100%;
+}
+
+.report-data{
+    text-align: center;
+}
+
+/*End of Report Building Manager*/
+/* Start of Navbar styling*/
+.nav-bar{
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    font-family: "Didot";
+    overflow: hidden;
+}
+    
+.nav-bar-pages ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type:none;
+    padding: 0%;
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+}
+    
+.nav-bar-pages li{
+    margin-left: 20px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: black;
+}
+.nav-bar-pages li a{
+    color:rgb(1, 1, 1);
+    text-decoration: none;
+}
+.nav-bar-pages li a:hover{
+    color:rgb(61, 41, 139);
+    text-decoration: underline;
+}
+    
+.project-title-name a{
+    font-family: "Bradley Hand";
+    font-size: 28px;
+    color:black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+    
+.project-logo {
+    width:1000%;
+    height:1000%;
+}
+/* End of Navbar Styling*/
+
+/* Start of table services*/
+.container{
+    margin: 0%;
+    padding: 20px;
+    background-color: rgb(177, 164, 224);
+    font-family: "Didot";
+}
+.div{
+    float: right;
+    padding: 50px;
+    width: auto;
+    padding-right: 10%;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 1% 10% 1% 10%;
+}
+th, td {
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px 5px;
+    background-color: rgb(228, 223, 249);
+}
+.container1{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-responsive{
+    overflow-x:auto;
+}
+
+.pagination{
+    display:inline;
+    color:black;
+    float: right;
+    margin:1% 10% 1% 10%;
+}
+
+.pagination a{
+    text-decoration: none;
+}
+
+.pagination a:hover{
+    text-decoration: underline;
+    color:rgb(58, 58, 195);
+}
+
+.selected-page{
+    color:rgb(58, 58, 195);
+}
+/*End of table services*/
+
+
+
+/*Start of Login, Register, Forgot Password Page Styling*/
+.register-page-column{
+    margin: 80px;
+    text-align: center;
+}
+.login-container{
+    margin: 0%;
+    padding: 20px;
+    font-family: "Didot";
+}
+.login-role-button a{
+    text-decoration: none;
+}
+.login-role-button a:hover{
+    text-decoration: underline;
+}
+.row {
+    display: flex;
+}
+.image-login-responsive{
+    width: 100%;
+    height:100%;
+}
+
+.mandatory-field{
+    color: red;
+}
+
+.login-heading{
+    color: blue;
+    /* text-align: center; */
+}
+
+.login-sub-heading{
+    color: grey;
+}
+
+.login-form label{
+    padding:4px;
+    margin:4px;
+}
+
+.login-form input{
+    padding: 4px;
+    margin: 17px;
+    border-radius: 25px;
+}
+
+.login-form select{
+    padding: 4px;
+    margin: 17px;
+    border-radius: 25px;
+}
+
+.login-form button{
+    border-radius: 25px;
+    color: rgb(231, 231, 237);
+    background-color: rgb(78, 7, 209);
+} 
+/*End of Login Page Styling*/
+
+/*Start of Contact us*/
+
+.container-contactus{
+    margin: 0%;
+    padding: 20px;
+    /* background-color: rgb(177, 164, 224); */
+    font-family: "Didot";
+}
+.contact-heading{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(177, 164, 224);
+    padding: 20px;
+    margin: 0%;
+    font-family: "Didot";
+}
+
+.contact-form{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Didot";
+}
+.contact-form input{
+    border-radius: 25px;
+    padding: 4px;
+    margin: 22px;
+    font-family: "Didot";
+}
+
+.contact-inline {
+    display: flex;
+    margin: 2% 6% 2% 6%;
+    justify-content: center;
+}
+
+.contact-spacing{
+    text-align: center;
+}
+
+.contact-spacing select{
+    border-radius: 25px;
+    padding: 4px;
+    margin: 22px;
+    font-family: "Didot";
+    text-decoration: none;
+    /* width:100%; */
+}
+
+.contact-form textarea{
+    border-radius: 25px;
+    font-family: "Didot";
+}
+
+.contact-form button{
+    border-radius: 25px;
+    color: rgb(231, 231, 237);
+    background-color: rgb(78, 7, 209);
+} 
+/*End of Contact us*/
+
+/* Start of My Profile */
+.center{
+    margin:0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 30px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color: rgb(202, 198, 202);
+    border-radius: 10px; 
+    
+}
+.profile-button{
+    float: right;
+}
+/*End of My Profile*/
+
+/*Start Home Page*/
+
+.home-bg {
+    background-image: url("../images/homePageBG.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.home-container1{
+    text-align: right;
+    filter: none;
+    font-family: "Didot";
+    color: white;
+    font-size: 25px;
+}
+.home-container2{
+    text-align: center;
+    filter:none;
+    font-family: "Didot";
+    color:white;
+}
+.home-container3{
+    display: inline;
+    /* margin:20px; */
+    text-align: center;
+}
+
+.home-container4{
+    display: inline;
+    /* margin:20px; */
+    text-align: center;
+    color: white;
+}
+
+.home-inline{
+    display:flex;
+}
+
+.home-img{
+    width: 100px;
+    height: auto;
+    
+}
+
+/* .home-inline-image{
+    max-width: 100%;
+    margin: 50px;
+    height:auto; 
+} */
+
+.apt-container{
+    width: 100%;
+    font-family: "Didot";
+    color: white;
+    font-weight:bold;
+}
+.services-container1{
+    width:100%;
+
+}
+.services-container{
+    width:100%;
+  
+    text-align: center;
+    display: inline;
+   
+   
+}
+
+.font1{
+    font-family: Gistesy;
+}
+.font2{
+    font-family: Alex Brush;
+}
+.font3{
+    font-family: Open Sans;
+}
+
+/* new*/
+* { box-sizing: border-box; }
+
+
+
+.icon-container ul { 
+   list-style: none; 
+   font-size: 0; 
+   margin: 0; 
+   padding: 0; 
+   text-align: center; 
+  
+}
+
+.icon-container ul li { 
+   display: inline-block; 
+   padding: 10px;
+}
+   
+
+/* first and second list-item are 50% wide */
+.icon-container ul li:nth-child(1), .icon-container ul li:nth-child(2) { width: 50%; }
+
+/* change alignment of inner pictures */
+.icon-container ul li:nth-child(1) { text-align: right; }
+.icon-container ul li:nth-child(2) { text-align: left; }
+
+/* just a bit of responsiveness */
+.icon-container ul li img { max-width: 100%; }
+.icon-container ul li:nth-child(n+3) { max-width: 30%; }
+/*end*/
+
+.services-row{
+    width: 100%;
+    font-family: "Didot";
+    color: white;
+    display: flex;
+}
+
+/*End Home Page*/
+
+/* Start of Services Page*/
+
+.service-container3 {
+    margin:50px;
+    /* display: flex; */
+    /* display:contents; */
+
+}
+
+.image-service {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    float: left;
+    align-items: center;
+}
+
+.service-column {
+    float: left;
+    width: calc(100%-90px);
+    height: 300px;
+}
+
+.service-row{
+    display: flex;
+}
+
+.service-column2 {
+    float: left;
+    width: calc(100% - 20px);
+    margin-top: 25px;
+    /* margin-left: 5px; */
+    height: 300px;
+}
+
+.service-column2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.service-column2 a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+/*End of Services page*/
+
+/* Start of Apartment Manager Services*/
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: inline-block;
+  }
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: #bbb;
+    color: rgb(255, 252, 252);
+}
+  
+.flip-card-back {
+    background-color: #524e9a;
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.flip-card-back a{
+    text-decoration: none;
+    color: rgb(239, 233, 233);
+}
+
+.flip-card-back a:hover{
+    text-decoration: underline;
+    color: rgb(230, 174, 90);
+}
+.apt-image{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float: left;
+    align-items: center;
+}
+
+/*End of Apartment Manager Services*/
+
+/* Start of Footer*/
+
+.footer{
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    background-color: rgb(52, 38, 108);
+    text-align: -webkit-center;
+    width:100%;
+    margin: 0% 0% 0% 0%;
+    padding:0px 0 20px;
+    color: white;
+}
+
+.footer-icons-style{
+    text-align: -webkit-center;
+}
+.footer ul{
+    display:flex;
+    justify-content:center;
+    list-style-type:none;
+    padding: 0px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color:white;
+    text-align:center;
+}
+
+.footer ul a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+/*End of Footer*/
+
+/* Start of Resident Subcriptions*/
+
+.subcription-heading{
+    font-family: 'Didot';
+    font-size: 25px;
+}
+
+.subcription-container{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#bell{
+    margin-left: 15px;
+}
+
+.subcription-heading a{
+    text-decoration: none;
+    margin: 0% 0% 20% 0%;
+}
+
+.subcription-heading a:hover{
+    text-decoration: underline;
+    margin: 0% 0% 20% 0%;
+}
+
+.subcription-table{
+    overflow-x:auto;
+    margin: 5% 10% 5% 10%;
+}
+
+.subcription-image{
+    margin:7%
+}
+
+
+/* End of Resident Subcriptions*/
+
+/* start of Maps styling */
+.container2 {
+    margin-top: 30px;
+    position: relative;
+}
+
+.maps-img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-block {
+    position: absolute;
+    background-color: #A6D3B2;
+    color: bold black;
+    top: 30px;
+    left: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.maps-span {
+    font-family: "Didot";
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+/* End of Maps styling  */
+
+/* Start of Chatbot Styling*/
+.header {
+    margin: 0%;
+    padding: 5px;
+    text-align: justify;
+    text-align: center;
+    background-color: #c6c4c4;
+}
+.chat {
+    background-image: url('images/chatbot.webp');
+    background-size: cover;
+    background-position: center;
+}
+.chatbot{
+    width: 50%;  
+}
+.conversation {
+    overflow-y: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.reply {
+    height: 250px;
+    overflow-y: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.chatbot-message {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 20px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.chatbot-text {
+    background-color: white;
+    color: #333333;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.input-form {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 4px;
+}
+message-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #eee;
+}
+#input-field {
+    width: 90%;
+    flex: auto;
+    height: 55px;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333333;
+    border: none;
+    background-color: #eee;
+}
+#submit-button {
+    background-color: transparent;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+/*End of Chatbot*/ 
+
+/*Start of Super Admin*/
+.card {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom:80px;
+    perspective: 1000px;
+    display: inline-block;
+  }
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card-front {
+    background-color: #bbb;
+    color: rgb(255, 252, 252);
+}
+.apt-image{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float: left;
+    align-items: center;
+}
+.superAdmin-span {
+    color: black;
+    font-family: "Didot";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.superAdmin-span a{
+    text-decoration: none;
+}
+.superAdmin-span a:hover{
+    text-decoration: underline;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .superAdmin-container {
+    padding: 2px 16px;
+  }
+/* End of Super Admin*/
+
+/*Start of Driving instructions*/
+.dl-instructions{
+    margin:10%;
+}
+/*End of Driving Instructions*/
+
+/* Start of visitor register parking*/
+
+.vehicleRegister-form{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Didot";
+}
+.vehicleRegister-form input{
+    border-radius: 25px;
+    padding: 4px;
+    margin: 22px;
+    font-family: "Didot";
+}
+
+.vehicleRegister-form button{
+    border-radius: 25px;
+    color: rgb(231, 231, 237);
+    background-color: rgb(78, 7, 209);
+} 
+/*End of visitor regsiter parking*/
+
+/* start of amenities timings page*/
+
+.timings-button{
+    border-radius: 25px;
+    color: rgb(231, 231, 237);
+    background-color: rgb(78, 7, 209);
+}
+/*End of amenities timings page*/
+
+/*  Start of make payment page*/
+
+.makepayment-container3{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.makepayment-container4{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* end of make payment page*/
+
+/* Start of About us page*/
+
+.about-container2 {
+    margin:50px;
+}
+
+#imgg{
+    top: 5%;
+    float:left;
+    margin: 0 20px 15px 0;
+}
+   
+
+
+* {
+    box-sizing: border-box;
+}
+
+.about-title{
+    font-family: "Gistesy";
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.about-description{
+    float:left;
+    font-family: "nickainley";
+    font-size: 27px;
+    color:black;
+    text-decoration: none;
+
+}
+
+.about-container3{
+    margin: 0%;
+    padding: 30px;
+    top: 5%;
+    left:0%;
+    text-align: center;
+}
+
+.about-amenities-heading{
+    font-family: "Gistesy";
+    font-size: 40px;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+.about-row1{
+   
+    overflow-x: scroll;
+
+}
+.about-column3{
+    flex:25%;
+    padding: 5px;
+    margin: 0% 20%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.topp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "gistesy";
+    font-size: 100%;
+    color:white;
+}
+
+.sp{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "gistesy";
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.tl{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "gistesy";
+    font-size: 30px;
+    color: white;
+    background-color: black;
+
+}
+
+.g{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "gistesy";
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    
+
+}
+
+.container4{
+    margin: 0%;
+    padding: 30px;
+    top: 2%;
+    left:0%;
+    text-align: center;
+}
+
+.cc{
+    font-family: "Gistesy";
+    font-size: 40px;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#hp{
+    top: 5%;
+    float:left;
+    margin: 0 20px 15px 0;
+}
+
+.s{
+    font-family: "gistesy";
+    font-size: 50px;
+
+}
+
+.tg{
+    font-family: "gistesy";
+    font-size: 30px;
+
+}
+
+.w{
+    font-family: Nickainley;
+    font-size:30px;
+}
+
+.col2{
+    padding: 5px;
+    margin: 0% 20%;
+    position: relative;
+}
+.about-image-title{
+    width:50%;
+    height:auto;
+}
+.about-container{
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+    background-color: rgb(184, 184, 184);
+}
+
+.service-column {
+    float: left;
+    width: calc(100%-90px);
+    height: 300px;
+}
+
+.service-row{
+    display: flex;
+}
+
+.service-column2 {
+    float: left;
+    width: calc(100% - 20px);
+    margin-top: 25px;
+    /* margin-left: 5px; */
+    height: 300px;
+}
+
+.about-image{
+    width: 50%;   
+}
+.about-text{
+    width: 50%;
+    float: left;
+}
+/*End of About us page*/
+
+/*Start of styling for erros*/
+.field-error{
+    color: red;
+    size: 12px;
+}
+
+/*End of styling for errors*/
+
+/* Start of Advertisements Header*/
+.advertisementHeader{
+    width: 100%;
+    height: 790px;
+    object-fit: fill;
+    background-size: 90%;
+}
+
+.adv-head-image{
+    width: 100%;
+    height: 100%;
+}
+
+.htext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "gistesy";
+    font-size: 70px;
+    color: white
+}
+
+.adv-container3{
+    margin: 0%;
+    padding: 30px;
+    height: 220px;
+    top: 5%;
+    left: 0%;
+    text-align: center;
+}
+
+.eventHeading {
+    font-family: "gistesy";
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*End of Adverstisements page*/
